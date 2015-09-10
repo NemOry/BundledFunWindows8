@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="BundledFun.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BundledFun"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Choose Difficulty</x:String>
+    </Page.Resources>
+
+    <Grid Background="#FFF7F7F7">
+        <Button x:ConnectionId='1' x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Height="38" Margin="607,547,0,0" VerticalAlignment="Top" Width="170" FontSize="14.667"                       Background="#FF40ABFF" Foreground="White" TabIndex="0"/>
+        <Image HorizontalAlignment="Left" Height="285" Margin="503,174,0,0" VerticalAlignment="Top" Width="363" Source="Assets/box.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="51" Margin="503,464,0,0" TextWrapping="Wrap" Text="BundledFun Metro" VerticalAlignment="Top" Width="409" Foreground="#FFB2B2B2" FontSize="48"/>
+        <Grid Margin="0,0,0,628">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='2' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Logout" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+
+    </Grid>
+</Page>
+

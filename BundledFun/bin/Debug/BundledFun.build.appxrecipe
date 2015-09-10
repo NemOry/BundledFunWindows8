@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NEMORY-PC</Machine>
+    <WindowsUser>Oliver</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\BundledFun.exe">
+      <PackagePath>BundledFun.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\BundledFun.pdb">
+      <PackagePath>BundledFun.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\packages\Newtonsoft.Json.4.5.8\lib\winrt45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\packages\Newtonsoft.Json.4.5.8\lib\winrt45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\bg white.png">
+      <PackagePath>Assets\bg white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\box.png">
+      <PackagePath>Assets\box.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\splash.png">
+      <PackagePath>Assets\splash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Audios\correct.wav">
+      <PackagePath>Audios\correct.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Audios\wrong.wav">
+      <PackagePath>Audios\wrong.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\DifficultyPage.xaml">
+      <PackagePath>DifficultyPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\LoginPage.xaml">
+      <PackagePath>LoginPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\MenuPage.xaml">
+      <PackagePath>MenuPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\QuizPage.xaml">
+      <PackagePath>QuizPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\ReportPage.xaml">
+      <PackagePath>ReportPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\SignUpPage.xaml">
+      <PackagePath>SignUpPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Oliver\Documents\Visual Studio 2012\Projects\BundledFun\BundledFun\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
